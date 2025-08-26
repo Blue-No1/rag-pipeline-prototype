@@ -1,9 +1,12 @@
 # RAG Flow Diagram (Draft)
 
-User Query  
+User Query    
+
     ↓
-Retriever (FAISS/Chroma)  
+Retriever (FAISS/Chroma)    
+
     ↓ (Top-k docs)
-Generator (LLM: e.g., Llama 3 Instruct)  
+Generator (LLM: e.g., Llama 3 Instruct)    
+
     ↓
 Response
